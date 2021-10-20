@@ -1,0 +1,80 @@
+.h-minting {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  position: relative;
+  padding: 1%;
+  h1 {
+    color: var(--dark-purple);
+    margin: 6% 3% 0 3%;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  .mint-close {
+    position: absolute;
+    right: 0;
+    top: -15%;
+    margin-right: 3%;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .minting-countdown {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2% 4%;
+    border: 1px solid black;
+    font-size: 25px;
+    color: var(--dark-purple);
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  .minting-button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .h-minting {
+    padding: 7%;
+    h1 {
+      font-size: 20px;
+    }
+    .minting-button {
+      font-size: 15px;
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2500px) {
+  :root {
+    --content-radius: 75px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .h-minting {
+    h1 {
+      font-size: 50px;
+      text-transform: capitalize;
+    }
+
+    .minting-countdown {
+      font-size: 40px;
+    }
+    .minting-button {
+      font-size: 40px;
+    }
+    .mint-close {
+      font-size: 50px;
+    }
+  }
+}
