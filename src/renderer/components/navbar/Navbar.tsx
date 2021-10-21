@@ -60,7 +60,7 @@ export default function Navbar(): JSX.Element {
       <div className="header-items">
         <a href="#about-title" className="about">About</a>
         {/* <a href="#" className="about">Collection</a> */}
-        <a href="#" className="about">Gaming Metaverse</a>
+        <a href="#gaming" className="about">Gaming Metaverse</a>
         <a href="#roadmap" className="about">Roadmap</a>
       </div>
       {/* <div className="logo-letters">

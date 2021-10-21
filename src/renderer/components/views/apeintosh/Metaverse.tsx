@@ -198,7 +198,7 @@ export default function Metaverse(): JSX.Element {
   }
   return (
     <>
-     <p className="metaverse-title">Gaming and Metaverse</p>
+     <p className="metaverse-title" id="gaming">Gaming and Metaverse</p>
     <div
       className="metaverse"
     >
