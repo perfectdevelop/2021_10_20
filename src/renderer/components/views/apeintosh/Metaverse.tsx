@@ -286,7 +286,7 @@ export default function Metaverse(): JSX.Element {
                 ) : null}
 
               </div>
-              <div
+              {/* <div
                 style={{
                   margin: "0 auto",
                   marginTop: "2rem",
@@ -309,7 +309,7 @@ export default function Metaverse(): JSX.Element {
                     →
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -331,7 +331,7 @@ export default function Metaverse(): JSX.Element {
                 ) : null}
 
               </div>
-              <div
+              {/* <div
                 style={{
                   margin: "0 auto",
                   marginTop: "2rem",
@@ -354,7 +354,7 @@ export default function Metaverse(): JSX.Element {
                     →
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
