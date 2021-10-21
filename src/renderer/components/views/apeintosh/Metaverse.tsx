@@ -19,19 +19,28 @@ import Homeback from '../../../../assets/images/pictures/backgrounds/home-back.p
 import Discord from '../../../../assets/images/pictures/social/discord.png';
 import Twitter from '../../../../assets/images/pictures/social/twitter.png';
 
-import Image1 from '../../../../assets/images/tokens/1.jpg'
-import Image2 from '../../../../assets/images/tokens/2.jpg'
-import Image3 from '../../../../assets/images/tokens/3.jpg'
-import Image4 from '../../../../assets/images/tokens/4.jpg'
-import Image5 from '../../../../assets/images/tokens/5.jpg'
-import Image6 from '../../../../assets/images/tokens/6.jpg'
-import Outerborder from '../../../../assets/images/pictures/carrousel/border.png'
-
-
-
+import Image1 from '../../../../assets/images/pictures/gaming/(1).png'
+import Image2 from '../../../../assets/images/pictures/gaming/(2).png'
+import Image3 from '../../../../assets/images/pictures/gaming/(3).png'
+import Image4 from '../../../../assets/images/pictures/gaming/(4).png'
+import Image5 from '../../../../assets/images/pictures/gaming/(5).png'
+import Image6 from '../../../../assets/images/pictures/gaming/(6).png'
+import Image7 from '../../../../assets/images/pictures/gaming/(7).png'
+import Image8 from '../../../../assets/images/pictures/gaming/(8).png'
+import Image9 from '../../../../assets/images/pictures/gaming/(9).png'
+import Image10 from '../../../../assets/images/pictures/gaming/(10).png'
+import Image11 from '../../../../assets/images/pictures/gaming/(11).png'
+import Image12 from '../../../../assets/images/pictures/gaming/(12).png'
+import Image13 from '../../../../assets/images/pictures/gaming/(13).png'
+import Image14 from '../../../../assets/images/pictures/gaming/(14).png'
+import Image15 from '../../../../assets/images/pictures/gaming/(15).png'
+import Image16 from '../../../../assets/images/pictures/gaming/(16).png'
+import Image17 from '../../../../assets/images/pictures/gaming/(17).png'
+import Image18 from '../../../../assets/images/pictures/gaming/(18).png'
+import Image19 from '../../../../assets/images/pictures/gaming/(19).png'
+import Image20 from '../../../../assets/images/pictures/gaming/(20).png'
 import { AddShoppingCart, SettingsInputComponentSharp } from '@material-ui/icons';
 import { useAppSelector } from 'src/renderer/redux/stores/store';
-import { createLogicalOr } from 'typescript';
 
 
 export default function Metaverse(): JSX.Element {
@@ -73,6 +82,62 @@ export default function Metaverse(): JSX.Element {
     {
       key: uuidv4(),
       content: <img src={Image6} alt="6" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image7} alt="7" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image8} alt="8" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image9} alt="9" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image10} alt="10" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image11} alt="11" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image12} alt="12" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image13} alt="13" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image14} alt="14" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image15} alt="15" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image16} alt="16" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image17} alt="17" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image18} alt="18" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image19} alt="19" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image20} alt="20" />
     }
   ]
 
@@ -159,19 +224,19 @@ export default function Metaverse(): JSX.Element {
   const [month, setMonth] = useState(new Date().getMonth());
   const [day, setDay] = useState(new Date().getDate());
 
-  // useEffect(() => {
-  //   var timerID = setInterval( () => tick(), 1000 );
-  //   return function cleanup() {
-  //       clearInterval(timerID);
-  //     };
-  //  });
+  useEffect(() => {
+    var timerID = setInterval( () => tick(), 1000 );
+    return function cleanup() {
+        clearInterval(timerID);
+      };
+   });
 
-  // useEffect(() => {
-  //   var timerID = setInterval( () => plus(), 2000 );
-  //   return function cleanup() {
-  //       clearInterval(timerID);
-  //     };
-  //  });
+  useEffect(() => {
+    var timerID = setInterval( () => plus(), 2000 );
+    return function cleanup() {
+        clearInterval(timerID);
+      };
+   });
 
    function tick() {
     setDate(new Date().getHours());
@@ -180,10 +245,9 @@ export default function Metaverse(): JSX.Element {
     setDay(new Date().getDate());
    }
 
-  //  function plus() {
-  //    console.log("auto !", goToSlide);
-  //   setGoToSlide(goToSlide + 1);
-  //  }
+   function plus() {
+    setGoToSlide(goToSlide + 1);
+   }
 
    const monthNames = ["January", "February", "March", "April", "May", "June",
    "July", "August", "September", "October", "November", "December"
@@ -198,7 +262,7 @@ export default function Metaverse(): JSX.Element {
   }
   return (
     <>
-     <p className="metaverse-title" id="gaming">Gaming and Metaverse</p>
+     <p className="metaverse-title">Gaming and Metaverse</p>
     <div
       className="metaverse"
     >
@@ -210,7 +274,6 @@ export default function Metaverse(): JSX.Element {
           <div className="child-home-image" >
             <div className="sub-home-image" >
               <div className="carousel-border"></div>
-              <img src={Outerborder} alt="outerborder" className="outer-border" />
               <div style={{ width: "50%", height: "500px", margin: "0 auto" }} className="parent-carousel">
                 {slides.length > 0 ? (
                   <Carousel
@@ -232,13 +295,12 @@ export default function Metaverse(): JSX.Element {
                 <div className="pagination">
                   <div
                     onClick={() => {
-                      console.log("when click !", goToSlide)
                       setGoToSlide(goToSlide - 1);
                     }}
                   >
                     ←
                   </div>
-                  <p>Mutant Ether Babies Collection</p>
+                  <p>Upcoming Subway Game</p>
                   <div
                     onClick={() => {
                       setGoToSlide(goToSlide + 1);
@@ -257,7 +319,6 @@ export default function Metaverse(): JSX.Element {
           <div className="child-home-image" >
             <div className="sub-home-image" >
               <div className="carousel-border"></div>
-              <img src={Outerborder} alt="outerborder" className="outer-border" />
               <div style={{ width: "50%", height: "500px", margin: "0 auto" }} className="parent-carousel">
                 {slides.length > 0 ? (
                   <Carousel
@@ -284,7 +345,7 @@ export default function Metaverse(): JSX.Element {
                   >
                     ←
                   </div>
-                  <p>Mutant Ether Babies Collection</p>
+                  <p>Upcoming Metaverse Gallery</p>
                   <div
                     onClick={() => {
                       setGoToSlide(goToSlide + 1);
