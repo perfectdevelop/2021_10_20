@@ -25,7 +25,7 @@ import Image3 from '../../../../assets/images/tokens/3.jpg'
 import Image4 from '../../../../assets/images/tokens/4.jpg'
 import Image5 from '../../../../assets/images/tokens/5.jpg'
 import Image6 from '../../../../assets/images/tokens/6.jpg'
-
+import Outerborder from '../../../../assets/images/pictures/carrousel/border.png';
 
 
 import { AddShoppingCart, SettingsInputComponentSharp } from '@material-ui/icons';
@@ -165,7 +165,7 @@ export default function SingleCarousel(): JSX.Element {
    });
 
   useEffect(() => {
-    var timerID = setInterval( () => plus(), 2000 );
+    var timerID = setInterval( () => plus(), 3000 );
     return function cleanup() {
         clearInterval(timerID);
       };
@@ -205,7 +205,8 @@ export default function SingleCarousel(): JSX.Element {
         <div className="home-image none-padding">
           <div className="child-home-image" >
             <div className="sub-home-image none-margin" >
-              {/* <div className="carousel-border"></div> */}
+              <div className="carousel-border single"></div>
+              <img src={Outerborder} alt="outerborder" className="outer-border single-border" />
               <div style={{ width: "50%", height: "250px", margin: "0 auto" }} className="parent-carousel">
                 {slides.length > 0 ? (
                   <Carousel

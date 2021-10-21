@@ -167,11 +167,12 @@
         display: flex;
         width: 90%;
         margin: 0 auto;
-        justify-content: center;
+        justify-content: space-between;
         align-items: baseline;
         p{
           color: white;
           font-size: 23px;
+          font-family: Days One;
         }
         div{
           color: white;
@@ -199,6 +200,25 @@
             margin: auto;
             top: 0;
             border: 1px solid white;
+          }
+          .single{
+            position: absolute !important;
+            left: -2px !important;
+            top: 1px !important;
+            width: 250px !important;
+            height: 250px !important;
+          }
+          .outer-border{
+            position: absolute;
+            left: -15px;
+            width: 530px;
+            top: -20px;
+          }
+          .single-border{
+            position: absolute;
+            width: 269px;
+            top: -10px;
+            left: 115px;
           }
           .parent-carousel{
             div{

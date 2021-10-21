@@ -163,7 +163,7 @@
         display: flex;
         width: 90%;
         margin: 0 auto;
-        justify-content: center;
+        justify-content: space-between;
         align-items: baseline;
         p{
           color: white;
@@ -192,6 +192,18 @@
             margin: auto;
             top: 0;
             border: 1px solid white;
+          }
+          .outer-border{
+            position: absolute;
+            left: -15px;
+            width: 530px;
+            top: -20px;
+          }
+          .single-border{
+            position: absolute;
+            left: 115px;
+            width: 270px;
+            top: -12px;
           }
           .parent-carousel{
             div{
