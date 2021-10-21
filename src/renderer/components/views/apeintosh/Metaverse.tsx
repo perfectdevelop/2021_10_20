@@ -1,11 +1,11 @@
 import React from 'react';
-import "./index.scss";
-// import ApeintoshContent from "./apeintoshContent/ApeintoshContent";
+import "./newindex.scss";
+import ApeintoshContent from "./apeintoshContent/ApeintoshContent";
 import { useRef, useState, useEffect } from "react";
-// import useDidUpdateEffect from "../../../hooks/useDidUpdateEffect";
-// import useReduxState from "../../../hooks/useReduxState";
+import useDidUpdateEffect from "../../../hooks/useDidUpdateEffect";
+import useReduxState from "../../../hooks/useReduxState";
 import { useMediaQuery } from "react-responsive";
-// import ApesRemaining from "./apesRemaining/ApesRemaining";
+import ApesRemaining from "./apesRemaining/ApesRemaining";
 import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from "uuid";
 import { config } from "react-spring";
@@ -19,17 +19,17 @@ import Homeback from '../../../../assets/images/pictures/backgrounds/home-back.p
 import Discord from '../../../../assets/images/pictures/social/discord.png';
 import Twitter from '../../../../assets/images/pictures/social/twitter.png';
 
-import Image1 from '../../../../../../assets/images/tokens/1.jpg'
-import Image2 from '../../../../../../assets/images/tokens/2.jpg'
-import Image3 from '../../../../../../assets/images/tokens/3.jpg'
-import Image4 from '../../../../../../assets/images/tokens/4.jpg'
-import Image5 from '../../../../../../assets/images/tokens/5.jpg'
-import Image6 from '../../../../../../assets/images/tokens/6.jpg'
+import Image1 from '../../../../assets/images/tokens/1.jpg'
+import Image2 from '../../../../assets/images/tokens/2.jpg'
+import Image3 from '../../../../assets/images/tokens/3.jpg'
+import Image4 from '../../../../assets/images/tokens/4.jpg'
+import Image5 from '../../../../assets/images/tokens/5.jpg'
+import Image6 from '../../../../assets/images/tokens/6.jpg'
 import { AddShoppingCart, SettingsInputComponentSharp } from '@material-ui/icons';
 import { useAppSelector } from 'src/renderer/redux/stores/store';
 
 
-export default function Apeintosh(): JSX.Element {
+export default function Metaverse(): JSX.Element {
 
   const [goToSlide, setGoToSlide] = useState(0);
   const [offsetRadius, setOffsetRadius] = useState(2);
@@ -77,9 +77,9 @@ export default function Apeintosh(): JSX.Element {
     height: "0px",
   });
 
-  // const [{ wallet, screenLoading: loading }, setGlobalData] = useReduxState(
-  //   (state) => state.globalData
-  // );
+  const [{ wallet, screenLoading: loading }, setGlobalData] = useReduxState(
+    (state) => state.globalData
+  );
   const handleResize = () => {
     if (apeintoshImg && apeintoshImg.current) {
       setSize({
@@ -106,35 +106,35 @@ export default function Apeintosh(): JSX.Element {
   //   return () => clearInterval(interval);
   // }, []);
 
-  // useDidUpdateEffect(() => {
-  //   if (wallet) {
-  //     wallet!.on("connect", () => {
-  //       setGlobalData({
-  //         type: "SET_GLOBAL_DATA",
-  //         arg: {
-  //           connected: true,
-  //         },
-  //       });
-  //     });
-  //     wallet!.on("disconnect", () => {
-  //       setGlobalData({
-  //         type: "SET_GLOBAL_DATA",
-  //         arg: {
-  //           connected: false,
-  //         },
-  //       });
-  //     });
+  useDidUpdateEffect(() => {
+    if (wallet) {
+      wallet!.on("connect", () => {
+        setGlobalData({
+          type: "SET_GLOBAL_DATA",
+          arg: {
+            connected: true,
+          },
+        });
+      });
+      wallet!.on("disconnect", () => {
+        setGlobalData({
+          type: "SET_GLOBAL_DATA",
+          arg: {
+            connected: false,
+          },
+        });
+      });
 
-  //     wallet!.connect();
-  //     return () => {
-  //       wallet!.disconnect();
-  //     };
-  //   }
-  // }, [wallet]);
+      wallet!.connect();
+      return () => {
+        wallet!.disconnect();
+      };
+    }
+  }, [wallet]);
 
-  // useDidUpdateEffect(() => {
-  //   handleResize();
-  // }, [loading]);
+  useDidUpdateEffect(() => {
+    handleResize();
+  }, [loading]);
 
   // const current = () => {
   //   let now = new Date();
@@ -191,17 +191,20 @@ export default function Apeintosh(): JSX.Element {
     }
   }
   return (
+    <>
+     <p className="metaverse-title">Gaming and Metaverse</p>
     <div
-      className="apeintosh"
+      className="metaverse"
     >
+     
       {/* {setInterval(function() {console.log("object")}, 3000)} */}
       {/* {console.log("Hello")} */}
-      <div className="homepages" style={{ display: "flex" }}>
+      <div className="homenew" style={{ display: "flex" }}>
         <div className="home-image">
           <div className="child-home-image" >
             <div className="sub-home-image" >
               <div className="carousel-border"></div>
-              <div style={{ width: "50%", height: "400px", margin: "0 auto" }} className="parent-carousel">
+              <div style={{ width: "50%", height: "500px", margin: "0 auto" }} className="parent-carousel">
                 {slides.length > 0 ? (
                   <Carousel
                     slides={slides}
@@ -240,43 +243,55 @@ export default function Apeintosh(): JSX.Element {
             </div>
           </div>
         </div>
-        {/* <div className="home-titles">
-          <div className="children-home-title">
-            <div className="firstline">Mutant Ether Babies</div>
-            {/* <div>{timer}</div> */}
-            {/* <div className="description">10,000 Out Mutant Ether Babies are on the run on Ethereum Chain.. </div>
-           
-            <div className="timewrap" style={{color:'white'}}>
-              <p>{monthNames[month]} {day} date {converter(date)}</p> */}
-              {/* <div className="count-down">
-                <ul>
-                  <li className="first">
-                    <span className="days">00</span><br /><span className="date-time">DAYS</span>
-                  </li>
-                  <li className="second">
-                    <span className="hours">00</span><br /><span className="date-time">HOURS</span>
-                  </li>
-                  <li className="third">
-                    <span className="minutes">00</span><br /><span className="date-time">MINUTES</span>
-                  </li>
-                  <li className="forth">
-                    <span className="seconds">00</span><br /><span className="date-time">SECONDS</span>
-                  </li>
-                </ul>
-              </div> */}
-              {/* <div className="current-time">{}</div>
-            </div>
-            <p className="forthline">NFT collection Game - Metaverse</p> */}
-            {/* <button className="get-llamanow btn-custom-button">Mint Your Mebs</button> */}
-            {/* <div className="stages">
-             <p className="">Minted Mebs : <span>0</span></p>
-             <p className="">Available Mebs : <span>10,000</span></p>
+      </div>
+      <div className="homenew" style={{ display: "flex" }}>
+        <div className="home-image">
+          <div className="child-home-image" >
+            <div className="sub-home-image" >
+              <div className="carousel-border"></div>
+              <div style={{ width: "50%", height: "500px", margin: "0 auto" }} className="parent-carousel">
+                {slides.length > 0 ? (
+                  <Carousel
+                    slides={slides}
+                    goToSlide={goToSlide}
+                    showNavigation={showArrows}
+                    offsetRadius={offsetRadius}
+                    animationConfig={configs}
+                  />
+                ) : null}
+
+              </div>
+              <div
+                style={{
+                  margin: "0 auto",
+                  marginTop: "2rem",
+                }}
+              >
+                <div className="pagination">
+                  <div
+                    onClick={() => {
+                      setGoToSlide(goToSlide - 1);
+                    }}
+                  >
+                    ←
+                  </div>
+                  <p>Mutant Ether Babies Collection</p>
+                  <div
+                    onClick={() => {
+                      setGoToSlide(goToSlide + 1);
+                    }}
+                  >
+                    →
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+      
       {/* {isMobile ? <ScrollMobile /> : <ScrollWeb />} */}
     </div>
-    </div>
+    </>
   );
 }

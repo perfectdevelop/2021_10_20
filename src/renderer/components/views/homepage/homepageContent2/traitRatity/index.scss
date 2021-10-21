@@ -1,10 +1,32 @@
 .hp-trait {
   width: 100%;
-  display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
   padding-top: 7%;
+  .metaverse-title{
+    font-family: Days One;
+    font-size-adjust: 35px;
+    font-weight: 600;
+  }
+    .metaverse{
+      display: flex;
+      justify-content: space-around;
+      padding: 20px 200px;
+      gap: 150px;
+    .left{
+      width: 50%;
+      img{
+        width: 100%;
+      }
+    }
+    .right{
+      width: 50%;
+      img{
+        width: 100%;
+      }
+    }
+  }
   .hp-trait-content {
     background-image: url(../../../../../../assets/images/pictures/backgrounds/purple-banana-background.png);
     border-radius: 2vw;

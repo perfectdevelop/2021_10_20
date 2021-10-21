@@ -3,6 +3,7 @@ import "./index.scss";
 import About from "./about/About";
 import RoadMap from "./roadmap/Roadmap";
 import TraitRatity from "./traitRatity/TraitRatity";
+import Metaverse from '../../apeintosh/Metaverse';
 import Team from "./team/Team";
 import Faqs from "./faqs/Faqs";
 import Divider from "./divider/Divider";
@@ -13,8 +14,9 @@ export default function HomePageContent(): JSX.Element {
       <About />
       <RoadMap />
       {/* <Divider /> */}
-      {/* <TraitRatity />
-      <Divider /> */}
+      {/* <TraitRatity /> */}
+      <Metaverse />
+      {/* <Divider />  */}
       {/* <Faqs /> */}
       <Team />
     </div>
