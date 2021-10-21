@@ -34,7 +34,12 @@ export default function ConnectButton({
       className={`nav-connect-wrap nav-connect  ${className} ${
         !metaState.isConnected && open ? "nc-open" : ""
       }`}
+      style={{display:"flex", gap: "20px"}}
     >
+      <PrimaryButton onClick={function (): void {
+        return
+        throw new Error('Function not implemented.');
+      } } children={"OpenSea"}></PrimaryButton>
       <PrimaryButton
       //   /*    {...(navRef.current && {
       //   style: { top: `${navRef.current.clientHeight / 2.93}%` },
