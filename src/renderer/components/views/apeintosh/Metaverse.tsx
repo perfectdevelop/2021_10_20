@@ -19,15 +19,26 @@ import Homeback from '../../../../assets/images/pictures/backgrounds/home-back.p
 import Discord from '../../../../assets/images/pictures/social/discord.png';
 import Twitter from '../../../../assets/images/pictures/social/twitter.png';
 
-import Image1 from '../../../../assets/images/tokens/1.jpg'
-import Image2 from '../../../../assets/images/tokens/2.jpg'
-import Image3 from '../../../../assets/images/tokens/3.jpg'
-import Image4 from '../../../../assets/images/tokens/4.jpg'
-import Image5 from '../../../../assets/images/tokens/5.jpg'
-import Image6 from '../../../../assets/images/tokens/6.jpg'
-
-
-
+import Image1 from '../../../../assets/images/pictures/gaming/(1).jpg'
+import Image2 from '../../../../assets/images/pictures/gaming/(2).jpg'
+import Image3 from '../../../../assets/images/pictures/gaming/(3).jpg'
+import Image4 from '../../../../assets/images/pictures/gaming/(4).jpg'
+import Image5 from '../../../../assets/images/pictures/gaming/(5).jpg'
+import Image6 from '../../../../assets/images/pictures/gaming/(6).jpg'
+import Image7 from '../../../../assets/images/pictures/gaming/(7).jpg'
+import Image8 from '../../../../assets/images/pictures/gaming/(8).jpg'
+import Image9 from '../../../../assets/images/pictures/gaming/(9).jpg'
+import Image10 from '../../../../assets/images/pictures/gaming/(10).jpg'
+import Image11 from '../../../../assets/images/pictures/gaming/(11).jpg'
+import Image12 from '../../../../assets/images/pictures/gaming/(12).jpg'
+import Image13 from '../../../../assets/images/pictures/gaming/(13).jpg'
+import Image14 from '../../../../assets/images/pictures/gaming/(14).jpg'
+import Image15 from '../../../../assets/images/pictures/gaming/(15).jpg'
+import Image16 from '../../../../assets/images/pictures/gaming/(16).jpg'
+import Image17 from '../../../../assets/images/pictures/gaming/(17).jpg'
+import Image18 from '../../../../assets/images/pictures/gaming/(18).jpg'
+import Image19 from '../../../../assets/images/pictures/gaming/(19).jpg'
+import Image20 from '../../../../assets/images/pictures/gaming/(20).jpg'
 import { AddShoppingCart, SettingsInputComponentSharp } from '@material-ui/icons';
 import { useAppSelector } from 'src/renderer/redux/stores/store';
 
@@ -71,6 +82,62 @@ export default function Metaverse(): JSX.Element {
     {
       key: uuidv4(),
       content: <img src={Image6} alt="6" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image7} alt="7" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image8} alt="8" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image9} alt="9" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image10} alt="10" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image11} alt="11" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image12} alt="12" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image13} alt="13" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image14} alt="14" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image15} alt="15" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image16} alt="16" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image17} alt="17" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image18} alt="18" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image19} alt="19" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={Image20} alt="20" />
     }
   ]
 
