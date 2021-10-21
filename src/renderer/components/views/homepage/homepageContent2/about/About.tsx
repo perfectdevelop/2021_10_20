@@ -13,6 +13,8 @@ import ape from "../../../../../../assets/images/pictures/backgrounds/ape-headma
 import About9 from '../../../../../../assets/images/tokens/3.jpg';
 import About10 from '../../../../../../assets/images/tokens/4.jpg';
 
+import SingleCarousel from '../../../apeintosh/SingleCarousel';
+
 export default function About(): JSX.Element {
   const isMobile = useMediaQuery({
     query: "(max-width:1024px)",
@@ -46,8 +48,8 @@ export default function About(): JSX.Element {
           <p>Unbelievable and unacceptable crimes!! Fortunately, we know that they are currently escaping to the Ethereum Blockchain. Now we need everyone's help so we can catch these outlaws! Even they are with different outfits, eye colors, weapons and headpieces; we will catch them all as we have a strong community!</p>
         </div>
         <div className="about-images">
-          <img src={About9} alt="about9" />
-          <img src={About10} alt="about10" />
+          <SingleCarousel />
+          <SingleCarousel />
         </div>
       </div>
       {/* <AboutCarrousel /> */}

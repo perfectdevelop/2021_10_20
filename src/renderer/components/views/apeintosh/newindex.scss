@@ -150,6 +150,9 @@
         box-shadow: 0 0 20px #4dffe6;
       }
     }
+    .none-padding{
+      padding-top: 0 !important;
+    }
     .home-image{
       zoom: 0.85;
       width: 100%;
@@ -176,6 +179,9 @@
         div:hover{
           cursor: pointer;
         }
+      }
+      .none-margin{
+        margin: 0 !important;
       }
         .sub-home-image{
           position: relative;
