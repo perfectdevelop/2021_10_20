@@ -286,30 +286,30 @@ export default function Metaverse(): JSX.Element {
                 ) : null}
 
               </div>
-              {/* <div
+              <div
                 style={{
                   margin: "0 auto",
                   marginTop: "2rem",
                 }}
               >
                 <div className="pagination">
-                  <div
+                  {/* <div
                     onClick={() => {
                       setGoToSlide(goToSlide - 1);
                     }}
                   >
                     ←
-                  </div>
-                  <p>Mutant Ether Babies Collection</p>
-                  <div
+                  </div> */}
+                  <p>UPCOMING SUBWAY GAME</p>
+                  {/* <div
                     onClick={() => {
                       setGoToSlide(goToSlide + 1);
                     }}
                   >
                     →
-                  </div>
+                  </div> */}
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
@@ -331,30 +331,30 @@ export default function Metaverse(): JSX.Element {
                 ) : null}
 
               </div>
-              {/* <div
+              <div
                 style={{
                   margin: "0 auto",
                   marginTop: "2rem",
                 }}
               >
                 <div className="pagination">
-                  <div
+                  {/* <div
                     onClick={() => {
                       setGoToSlide(goToSlide - 1);
                     }}
                   >
                     ←
-                  </div>
-                  <p>Mutant Ether Babies Collection</p>
-                  <div
+                  </div> */}
+                  <p>UPCOMING METAVERSE GALLERY</p>
+                  {/* <div
                     onClick={() => {
                       setGoToSlide(goToSlide + 1);
                     }}
                   >
                     →
-                  </div>
+                  </div> */}
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
