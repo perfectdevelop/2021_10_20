@@ -26,13 +26,19 @@
             border: 3px solid #cb5d29;
             border-radius: 10px;
             width: 80%;
+            p{
+              font-family: Days One;
+              font-weight: lighter !important;
+              font-size: 18px;
+            }
             .phase-title{
-              font-weight: 700;
+              font-weight: 400;
+              font-family: Days One;
               font-size: 25px;
             }
             .phase-content{
               font-size: 18px;
-              font-weight: 300 !important;
+              font-family: Days One;
               p{
                   margin: 0;
                   display: flex;
