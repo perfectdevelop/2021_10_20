@@ -30,6 +30,7 @@
               font-family: Days One;
               font-weight: lighter !important;
               font-size: 18px;
+              display: flex;
             }
             .phase-title{
               font-weight: 400;
@@ -63,11 +64,21 @@
     
           //       }
           }
+          .special{
+            display: flex;
+            p{
+              display: flex;
+            }
+          }
+          p{
+            span{
+              margin-right: 10px;
+            }
+          }
         }
         img{
-          width: 100px;
-          height: 150px;
-          display: none;
+          width: 20px;
+          height: 20px;
           // margin-top: 40px;
         }
       }

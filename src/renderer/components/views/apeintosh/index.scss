@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   color: black;
+  height: 800px;
   background-color: var(--dark-blue);
   position: relative;
   .homepages{
@@ -22,7 +23,7 @@
       flex-grow: 1;
       justify-content: center;
       padding-bottom: 54px;
-      padding-top: 80px;
+      padding-top: 180px;
       text-align: start;
       .children-home-title{
         width: 100%;

@@ -132,14 +132,14 @@ export default function RoadMap(): JSX.Element {
             <div className="phase-container">
               <div className="phase">
                 <p className="phase-title">Phase One - Pre Minting 500 NFTs</p>
-                <p className="phase-content">Before the public fair launch, we will pre-mint random 500 Mutant Ether Babies NFTs for the team and promotion and gaming purposes, such as giveaways to grow our community and reward for our gamers in the upcoming Mebs Subway play-to-earn game.</p>
+                <p className="phase-content special"><span><img src={Tick} alt="tick" className="" /></span>Before the public fair launch, we will pre-mint random 500 Mutant Ether Babies NFTs for the team and promotion and gaming purposes, such as giveaways to grow our community and reward for our gamers in the upcoming Mebs Subway play-to-earn game.</p>
               </div>
-              <img src={PhaseIcon3} alt="" className="phase-icon" />
+              {/* <img src={PhaseIcon3} alt="" className="phase-icon" /> */}
               <div className=""></div>
             </div>
 
             <div className="phase-container">
-              <img src={PhaseIcon2} alt="" className="phase-icon" />
+              {/* <img src={PhaseIcon2} alt="" className="phase-icon" /> */}
               <div className="phase">
                 <p className="phase-title">Phase Two - Community giveaways </p>
                 <div className="phase-content">
@@ -154,32 +154,31 @@ export default function RoadMap(): JSX.Element {
             <div className="phase-container">
               <div className="phase">
                 <p className="phase-title">Phase Three - Charities</p>
-                <p className="phase-content">Charities to be awarded the 30 ETH Charity Funds will be chosen by our community members - Your voices are matter!</p>
+                <p className="phase-content special"><span><img src={Tick} alt="tick" className="" /></span>Charities to be awarded the 30 ETH Charity Funds will be chosen by our community members - Your voices are matter!</p>
               </div>
-              <img src={PhaseIcon1} alt="" className="phase-icon" />
+              {/* <img src={PhaseIcon1} alt="" className="phase-icon" /> */}
               <div className=""></div>
             </div>
             <div className="phase-container">
-              <img src={PhaseIcon5} alt="" className="phase-icon" />
+              {/* <img src={PhaseIcon5} alt="" className="phase-icon" /> */}
               <div className="phase">
                 <p className="phase-title">Phase Four - Gaming & Metaverse</p>
-                <p className="phase-content">Our Gaming platform and app will be released and our members will start earning by playing the Mebs Subway Game -</p>
-                <p>We will buy land in the metaverse and build the Mebs Island Mebsverse</p>
-                <p>Each MEBS holder will be airdropped a 3D version of their MEBS an which will be used in the MEBVERSE.</p>
-                <p>We will launch our Mebs Island Metaverse and members can hang out in there and also watch their NFTs being displayed in the Mebs Gallery in the Mebverse or Metaverse.</p>
+                <p className="phase-content special"><span><img src={Tick} alt="tick" className="" /></span>Our Gaming platform and app will be released and our members will start earning by playing the Mebs Subway Game -</p>
+                <p><span><img src={Tick} alt="tick" className="" /></span>We will buy land in the metaverse and build the Mebs Island Mebsverse</p>
+                <p><span><img src={Tick} alt="tick" className="" /></span>Each MEBS holder will be airdropped a 3D version of their MEBS an which will be used in the MEBVERSE.</p>
+                <p><span><img src={Tick} alt="tick" className="" /></span>We will launch our Mebs Island Metaverse and members can hang out in there and also watch their NFTs being displayed in the Mebs Gallery in the Mebverse or Metaverse.</p>
               </div>
               <div className=""></div>
             </div>
             <div className="phase-container">
               <div className="phase">
                 <p className="phase-title">Phase Five </p>
-                <p className="phase-content">Short animated movie based on MEBS and NFT
-                  Opensea verification and buybacks
-                  Monthly Charity donations for 6 months [ 10k per Month ] - From Royalties on Opensea sales.
-                  Mebs Merch Shop
-                </p>
+                <p className="phase-content special"><span><img src={Tick} alt="tick" className="" /></span>Short animated movie based on MEBS and NFT.</p>
+                  <p><span><img src={Tick} alt="tick" className="" /></span>Opensea verification and buybacks.</p>
+                  <p><span><img src={Tick} alt="tick" className="" /></span>Monthly Charity donations for 6 months [ 10k per Month ] - From Royalties on Opensea sales.</p>
+                  <p><span><img src={Tick} alt="tick" className="" /></span>Mebs Merch Shop</p>
               </div>
-              <img src={PhaseIcon4} alt="" className="phase-icon" />
+              {/* <img src={PhaseIcon4} alt="" className="phase-icon" /> */}
               <div className=""></div>
             </div>
           </div>
