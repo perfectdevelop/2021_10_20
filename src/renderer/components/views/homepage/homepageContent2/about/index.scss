@@ -9,6 +9,7 @@
     justify-content: space-between;
     border-radius: 75px;
     padding: 2% 4%;
+    margin-bottom: 0 !important;
     position: relative;
     text-align: left;
     background-repeat: no-repeat;
@@ -40,7 +41,7 @@
             margin-bottom: 3%;
         }
         p {
-            font-family: var(--content-font);
+            font-family: Days One;
             margin-top: 0;
             font-size: 20px !important;
             &:last-child {
@@ -169,7 +170,7 @@
                 font-size: 50px;
             }
             p {
-                font-family: var(--content-font);
+                font-family: Days One;
             }
         }
         >svg {
@@ -198,7 +199,7 @@
                 }
             }
             p {
-                font-family: var(--content-font);
+                font-family: Days One;
                 font-size: 25px;
             }
         }

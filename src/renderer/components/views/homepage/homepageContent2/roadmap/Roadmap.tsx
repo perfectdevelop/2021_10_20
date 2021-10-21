@@ -10,6 +10,7 @@ import PhaseIcon3 from '../../../../../../assets/images/roadmapIcons/33.png';
 import PhaseIcon4 from '../../../../../../assets/images/roadmapIcons/44.png';
 import PhaseIcon5 from '../../../../../../assets/images/roadmapIcons/55.png';
 import PhaseIcon1 from '../../../../../../assets/images/roadmapIcons/11.png';
+import Tick from '../../../../../../assets/images/icons/tick2.png';
 
 export default function RoadMap(): JSX.Element {
   return (
@@ -127,7 +128,7 @@ export default function RoadMap(): JSX.Element {
           </div>
         
           {/* <img src={banana} alt="logo"/> */}
-          {/* <div className="roadmap-container">
+          <div className="roadmap-container">
             <div className="phase-container">
               <div className="phase">
                 <p className="phase-title">Phase One - Pre Minting 500 NFTs</p>
@@ -140,18 +141,19 @@ export default function RoadMap(): JSX.Element {
             <div className="phase-container">
               <img src={PhaseIcon2} alt="" className="phase-icon" />
               <div className="phase">
-              <p className="phase-title">Phase Two - Community giveaways </p>
-                <p className="phase-content">30% Minted - 5 ETH Giveaway to 5 lucky Meb holders & 5 ETH buyback to raise floor level
-                  50% Minted - 10 ETH Giveaway to 10 lucky Meb holders & 10 ETH buyback to raise floor level
-                  80% Minted - 10 ETH Giveaway to 10 lucky Meb holders & 10 ETH buyback to raise floor level
-                  100% Minted - 30 ETH allocated for Charities 3 Charities [ 10 Eth each ] and 20 ETH Buyback to raise floor level
-                  We are more concerned about community and value for our NFTs. - Mutant Ether Babies.</p>
+                <p className="phase-title">Phase Two - Community giveaways </p>
+                <div className="phase-content">
+                  <p><span><img src={Tick} alt="tick" className="" /></span>30% Minted - 5 ETH Giveaway to 5 lucky Meb holders & 5 ETH buyback to raise floor level</p>
+                  <p><span><img src={Tick} alt="tick" className="" /></span>50% Minted - 10 ETH Giveaway to 10 lucky Meb holders & 10 ETH buyback to raise floor level </p>
+                  <p><span><img src={Tick} alt="tick" className="" /></span>80% Minted - 10 ETH Giveaway to 10 lucky Meb holders & 10 ETH buyback to raise floor level </p>
+                  <p><span><img src={Tick} alt="tick" className="" /></span>100% Minted - 30 ETH allocated for Charities 3 Charities [ 10 Eth each ] and 20 ETH Buyback to raise floor level </p>
+                </div>
               </div>
               <div className=""></div>
             </div>
             <div className="phase-container">
               <div className="phase">
-              <p className="phase-title">Phase Three - Charities</p>
+                <p className="phase-title">Phase Three - Charities</p>
                 <p className="phase-content">Charities to be awarded the 30 ETH Charity Funds will be chosen by our community members - Your voices are matter!</p>
               </div>
               <img src={PhaseIcon1} alt="" className="phase-icon" />
@@ -161,18 +163,17 @@ export default function RoadMap(): JSX.Element {
               <img src={PhaseIcon5} alt="" className="phase-icon" />
               <div className="phase">
                 <p className="phase-title">Phase Four - Gaming & Metaverse</p>
-                <p className="phase-content">Our Gaming platform and app will be released and our members will start earning by playing the Mebs Subway Game - 
-                  We will buy land in the metaverse and build the Mebs Island Mebsverse
-                  Each MEBS holder will be airdropped a 3D version of their MEBS an which will be used in the MEBVERSE
-                  We will launch our Mebs Island Metaverse and members can hang out in there and also watch their NFTs being displayed in the Mebs Gallery in the Mebverse or Metaverse.
-                </p>
-                </div>
+                <p className="phase-content">Our Gaming platform and app will be released and our members will start earning by playing the Mebs Subway Game -</p>
+                <p>We will buy land in the metaverse and build the Mebs Island Mebsverse</p>
+                <p>Each MEBS holder will be airdropped a 3D version of their MEBS an which will be used in the MEBVERSE.</p>
+                <p>We will launch our Mebs Island Metaverse and members can hang out in there and also watch their NFTs being displayed in the Mebs Gallery in the Mebverse or Metaverse.</p>
+              </div>
               <div className=""></div>
             </div>
             <div className="phase-container">
               <div className="phase">
                 <p className="phase-title">Phase Five </p>
-                <p className="phase-content">Short animated movie based on MEBS and NFT 
+                <p className="phase-content">Short animated movie based on MEBS and NFT
                   Opensea verification and buybacks
                   Monthly Charity donations for 6 months [ 10k per Month ] - From Royalties on Opensea sales.
                   Mebs Merch Shop
@@ -181,9 +182,9 @@ export default function RoadMap(): JSX.Element {
               <img src={PhaseIcon4} alt="" className="phase-icon" />
               <div className=""></div>
             </div>
-            </div> */}
+          </div>
 
-          <div className="roadmap-container">
+          {/* <div className="roadmap-container">
 
             <div className="road-left">
 
@@ -249,7 +250,7 @@ export default function RoadMap(): JSX.Element {
               </div>
               <div className="phase"></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* <RoadmapList /> */}

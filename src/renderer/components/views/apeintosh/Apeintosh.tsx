@@ -193,9 +193,6 @@ export default function Apeintosh(): JSX.Element {
   return (
     <div
       className="apeintosh"
-      style={{
-        minHeight: '630px'
-      }}
     >
       {/* {setInterval(function() {console.log("object")}, 3000)} */}
       {/* {console.log("Hello")} */}
